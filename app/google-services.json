@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "137657533838",
+    "firebase_url": "https://alarmizo-default-rtdb.firebaseio.com",
+    "project_id": "alarmizo",
+    "storage_bucket": "alarmizo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137657533838:android:83bee14cef77dd99cf50df",
+        "android_client_info": {
+          "package_name": "com.alarmizo.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyGFr8iyH7N4Y9VI4kbz_dZYTAAZmsDlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
