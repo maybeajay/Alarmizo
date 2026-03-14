@@ -62,20 +62,24 @@ fun AlarmScreen(navController: NavHostController) {
                     .fillMaxWidth()
                     .padding(horizontal = 32.dp)
             ) {
-                Column(
-                    modifier = Modifier.padding(24.dp),
-                    horizontalAlignment = Alignment.CenterHorizontally
+
+                Row (
+                    modifier = Modifier.padding(start = 16.dp, end = 16.dp, top = 16.dp)
                 ) {
                     Text(
                         text = "To dismiss alarm",
                         fontSize = 14.sp,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
-                    Spacer(modifier = Modifier.height(8.dp))
                     Text(
                         text = "📸 Find a:",
                         fontSize = 16.sp
                     )
+                }
+                Column(
+                    modifier = Modifier.padding(24.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
                     Spacer(modifier = Modifier.height(4.dp))
                     Text(
                         text = uiState.targetObject,

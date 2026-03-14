@@ -115,13 +115,13 @@ class AlarmService : Service() {
 
         val pendingIntent = PendingIntent.getActivity(
             this,
-            alarmId,                               // ✅ use alarmId as request code
+            alarmId,
             fullScreenIntent,
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
         return NotificationCompat.Builder(this, CHANNEL_ID)
-            .setSmallIcon(R.drawable.ic_launcher_foreground)
+            .setSmallIcon(R.drawable.ic_notfi)
             .setContentTitle("Alarmizo")
             .setContentText(alarmLabel)
             .setPriority(NotificationCompat.PRIORITY_MAX)
